@@ -15,19 +15,19 @@ Lab 8 kế thừa cách tổ chức repo của Lab 6 socket starter, nhưng thay
 
 ## Team members
 
-- **Thành viên 1**: BUIVANTAI_1 - MSSV: 1871020515_ID
-- **Thành viên 2**: NGUYENHOANGVIET_2 - MSSV: 1871020654_ID
+- **Thành viên 1**: TRANHUUTIENDUY_1 - MSSV: 1871020191_ID
+- **Thành viên 2**: NGUYENMINHPHUONG_2 - MSSV: 1871020460_ID
 
 ## Task division
 
-- **Thành viên 1 phụ trách chính**: BUIVANTAI_1
-- **Thành viên 2 phụ trách chính**: NGUYỄN HOÀNG VIỆT_2
+- **Thành viên 1 phụ trách chính**: TRANHUUTIENDUY_1
+- **Thành viên 2 phụ trách chính**: NGUYỄN MINH PHƯƠNG_2
 - **Phần làm chung**: CẢ NHÓM 
 
 ## Demo roles
 
 - **Demo Sender / mã hóa / log gửi**: BUIVANTAI
-- **Demo Receiver / giải mã / kiểm tra hash**: NGUYENHOANGVIET
+- **Demo Receiver / giải mã / kiểm tra hash**: NGUYENMINHPHUONG
 - **Cả hai cùng trả lời câu hỏi mở rộng AES và chữ ký số**: CẢ NHÓM 
 ---
 
