@@ -1,4 +1,4 @@
-# Lab 8 - Báo cáo 1 trang
+# Lab 8 – Báo cáo 1 trang
 
 ## 1. Mục tiêu
 
@@ -24,10 +24,14 @@ Xây dựng chương trình truyền dữ liệu an toàn qua socket bằng các
 
 ## 4. Kết quả minh chứng
 
-- Ảnh chụp màn hình Sender: TODO_SCREENSHOT_SENDER
-- Ảnh chụp màn hình Receiver: TODO_SCREENSHOT_RECEIVER
-- File log Sender: `logs/sender_success.log`
-- File log Receiver: `logs/receiver_success.log`
+- Chương trình chạy thành công, Sender mã hóa gửi đi và Receiver nhận dữ liệu, giải mã chính xác.
+- Hệ thống đã kiểm tra tính toàn vẹn bằng SHA-256: **Khớp mã Hash (INTEGRITY PASSED)**.
+- Khóa DES đã được bảo vệ thành công qua cơ chế mã hóa bất đối xứng RSA-OAEP.
+- Hệ thống đã bắt được các trường hợp lỗi hoặc dữ liệu bị thay đổi (`tamper`) trên đường truyền socket thành công.
+
+*Chi tiết các file nhật ký hoạt động:*
+- File log Sender: `logs/sender_success.log` đã ghi nhận toàn bộ quá trình sinh key, mã hóa và gửi gói tin thành công.
+- File log Receiver: `logs/receiver_success.log` đã ghi nhận quá trình nhận gói tin, giải mã RSA lấy DES key, giải mã dữ liệu thành công và kiểm tra hash trùng khớp.
 
 ## 5. Nhận xét
 
