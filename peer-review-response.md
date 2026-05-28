@@ -2,8 +2,8 @@
 
 ## Nhóm được review
 
-- Tên nhóm: okkk
-- Người review: okkk
+- Tên nhóm: ok
+- Người review: ok
 
 ## Góp ý nhận được
 
